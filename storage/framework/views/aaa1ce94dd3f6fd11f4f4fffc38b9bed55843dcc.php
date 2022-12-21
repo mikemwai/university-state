@@ -1,0 +1,1 @@
+<?php /**PATH C:\xampp\htdocs\SMS-IN-LARAVEL\resources\views/pages/admin/menu.blade.php ENDPATH**/ ?>

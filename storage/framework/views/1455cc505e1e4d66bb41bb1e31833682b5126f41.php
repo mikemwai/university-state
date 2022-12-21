@@ -1,0 +1,1 @@
+<?php /**PATH C:\xampp\htdocs\lav_sms\resources\views/pages/admin/menu.blade.php ENDPATH**/ ?>
