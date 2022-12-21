@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## University State System
+## University State Academic Management System
 
 This is an intergrated system using MVC design tools provided by Laravel. It contains the following entities Staff Members, Lecturers and Students. It manages several activities involved in higher education based on the respective entities. Moreover, it is a group project.
 
