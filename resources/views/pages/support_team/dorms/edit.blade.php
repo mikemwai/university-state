@@ -4,7 +4,7 @@
 
     <div class="card">
         <div class="card-header header-elements-inline">
-            <h6 class="card-title">Edit Dorm</h6>
+            <h6 class="card-title">Edit Hostel</h6>
             {!! Qs::getPanelOptions() !!}
         </div>
 
