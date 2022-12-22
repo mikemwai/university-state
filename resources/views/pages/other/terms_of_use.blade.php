@@ -13,7 +13,7 @@
                     <div class="card-body">
                         <div class="row">
                             <div style="font-size: 16px;" class="col-md-10 offset-md-1">
-                                <p>Last modified: November 4, 2019</p>
+                                <p>Last modified: December 22, 2022</p>
 
                                 <h4 class="font-weight-semibold">Acceptance of the Terms of Use</h4>
 

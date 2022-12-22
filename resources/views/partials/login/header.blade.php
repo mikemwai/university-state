@@ -29,12 +29,12 @@
                 </a>
             </li>
 
-            <li class="nav-item dropdown">
+            <!--<li class="nav-item dropdown">
                 <a href="#" class="navbar-nav-link">
                     <i class="icon-cog3"></i>
                     <span class="d-md-none ml-2">Options</span>
                 </a>
-            </li>
+            </li>--->
         </ul>
     </div>
 </div>
