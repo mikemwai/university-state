@@ -37,7 +37,8 @@
 
             <li class="nav-item dropdown dropdown-user">
                 <a href="#" class="navbar-nav-link dropdown-toggle" data-toggle="dropdown">
-                    <img style="width: 38px; height:38px;" src="{{ Auth::user()->photo }}" class="rounded-circle" alt="">
+                    <!--<img style="width: 38px; height:38px;" src="{{ Auth::user()->photo }}" class="rounded-circle" alt="">--->
+                    <img src="assets/images/user.png" width="38" height="38" class="rounded-circle" alt=""></a>
                     <span>{{ Auth::user()->name }}</span>
                 </a>
 

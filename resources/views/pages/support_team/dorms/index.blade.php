@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('page_title', 'Manage Hostels')
+@section('page_title', 'Manage Hostels (Dorms)')
 @section('content')
 
     <div class="card">

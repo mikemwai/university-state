@@ -21,7 +21,8 @@
             <div class="card-body">
                 <div class="media">
                     <div class="mr-3">
-                        <a href="{{ route('my_account') }}"><img src="{{ Auth::user()->photo }}" width="38" height="38" class="rounded-circle" alt=""></a>
+                        <!--<a href="{{ route('my_account') }}"><img src="{{ Auth::user()->photo }}" width="38" height="38" class="rounded-circle" alt=""></a>--->
+                        <img src="assets/images/user.png" width="38" height="38" class="rounded-circle" alt=""></a>
                     </div>
 
                     <div class="media-body">
@@ -146,7 +147,7 @@
 
                     {{--Manage Dorms--}}
                     <li class="nav-item">
-                        <a href="{{ route('dorms.index') }}" class="nav-link {{ in_array(Route::currentRouteName(), ['dorms.index','dorms.edit']) ? 'active' : '' }}"><i class="icon-home9"></i> <span> Dormitories</span></a>
+                        <a href="{{ route('dorms.index') }}" class="nav-link {{ in_array(Route::currentRouteName(), ['dorms.index','dorms.edit']) ? 'active' : '' }}"><i class="icon-home9"></i> <span> Hostels</span></a>
                     </li>
 
                     {{--Manage Sections--}}

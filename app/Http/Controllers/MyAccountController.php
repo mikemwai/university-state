@@ -43,6 +43,7 @@ class MyAccountController extends Controller
             $f = Qs::getFileMetaData($photo);
             $f['name'] = 'photo.' . $f['ext'];
             $f['path'] = $photo->storeAs(Qs::getUploadPath($user_type).$code, $f['name']);
+            //$d['photo'] = asset('storage/app/public/' . $f['path']);
             $d['photo'] = asset('storage/' . $f['path']);
         }
 
