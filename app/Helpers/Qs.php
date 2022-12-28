@@ -31,7 +31,7 @@ class Qs
 
     public static function getDefaultUserImage()
     {
-        return asset('global_assets/images/user.png');
+        return asset('assets/images/user.png');
     }
 
     public static function getPanelOptions()
@@ -296,12 +296,14 @@ class Qs
     public static function getMarkType($class_type)
     {
        switch($class_type){
-           case 'J' : return 'junior';
+        case 'U' : return 'undergraduate';
+        case 'P' : return 'postgraduate';
+           /*case 'J' : return 'junior';
            case 'S' : return 'senior';
            case 'N' : return 'nursery';
            case 'P' : return 'primary';
            case 'PN' : return 'pre_nursery';
-           case 'C' : return 'creche';
+           case 'C' : return 'creche';*/
        }
         return $class_type;
     }

@@ -86,7 +86,7 @@
                         </div>
                 </div>
                 <div class="col-md-6">
-                    {{--Fees--}}
+                {{--Fees--}}
                <fieldset>
                    <legend><strong>Next Term Fees</strong></legend>
                    @foreach($class_types as $ct)

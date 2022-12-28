@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('page_title', 'Manage Subjects')
+@section('page_title', 'Manage Subjects (Courses)')
 @section('content')
 
     <div class="card">
