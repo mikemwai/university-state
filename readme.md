@@ -11,6 +11,16 @@
 
 This is an intergrated system using MVC design tools provided by Laravel. It contains the following entities Staff Members, Lecturers and Students. It manages several activities involved in higher education based on the respective entities. Moreover, it is a group project.
 
+## Login Credentials
+The system accommodates students, lecturers(teachers), staff, parents, admin and a superadmin.
+To access the system login with the user email and the password. 
+
+For example;
+User Email=superadmin@superadmin.com 
+Password=universitystate
+
+This will depend if it's a user that has been entered after performing seeding. 
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
