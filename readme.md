@@ -16,8 +16,8 @@ The system accommodates students, lecturers(teachers), staff, parents, admin and
 To access the system login with the user email and the password. 
 
 For example;
-User Email=superadmin@superadmin.com 
-Password=universitystate
+User Email= superadmin@superadmin.com 
+Password= universitystate
 
 This will depend if it's a user that has been entered after performing seeding. 
 
