@@ -26,7 +26,7 @@ class Qs
 
     public static function getAppCode()
     {
-        return self::getSetting('system_title') ?: 'CJ';
+        return self::getSetting('system_title') ?: 'US';
     }
 
     public static function getDefaultUserImage()
@@ -80,7 +80,7 @@ class Qs
 
     public static function hash($id)
     {
-        $date = date('dMY').'CJ';
+        $date = date('dMY').'US';
         $hash = new Hashids($date, 14);
         return $hash->encode($id);
     }
@@ -109,7 +109,7 @@ class Qs
 
     public static function decodeHash($str, $toString = true)
     {
-        $date = date('dMY').'CJ';
+        $date = date('dMY').'US';
         $hash = new Hashids($date, 14);
         $decoded = $hash->decode($str);
         return $toString ? implode(',', $decoded) : $decoded;
