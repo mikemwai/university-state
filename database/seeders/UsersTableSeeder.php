@@ -31,7 +31,7 @@ class UsersTableSeeder extends Seeder
 
             ['name' => 'Super Admin',
                 'email' => 'superadmin@superadmin.com',
-                'username' => 'cj',
+                'username' => 'superadmin',
                 'password' => $password,
                 'user_type' => 'super_admin',
                 'code' => strtoupper(Str::random(10)),
@@ -73,6 +73,15 @@ class UsersTableSeeder extends Seeder
                 'code' => strtoupper(Str::random(10)),
                 'remember_token' => Str::random(10),
             ],
+
+            ['name' => 'Student Laravel',
+            'email' => 'studentlaravel@student.com',
+            'user_type' => 'student',
+            'username' => 'laravel',
+            'password' => $password,
+            'code' => strtoupper(Str::random(10)),
+            'remember_token' => Str::random(10),
+        ],
         ];
         DB::table('users')->insert($d);
     }
