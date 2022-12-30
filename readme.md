@@ -11,15 +11,17 @@
 
 This is an intergrated system using MVC design tools provided by Laravel. It contains the following entities Staff Members, Lecturers and Students. It manages several activities involved in higher education based on the respective entities. Moreover, it is a group project.
 
-## Login Credentials
-The system accommodates students, lecturers(teachers), staff, parents, admin and a superadmin.
-To access the system login with the user email and the password. 
+**Login Credentials**
+After seeding. Login details as follows:
 
-For example;
-User Email= superadmin@superadmin.com 
-Password= universitystate
-
-This will depend if it's a user that has been entered after performing seeding. 
+| Account Type  | Username | Email | Password |
+| ------------- | -------- | ----- | -------- |
+| Super Admin | superadmin | superadmin@superadmin.com | universitystate |
+|  Admin | admin | admin@admin.com | universitystate |
+|  Teacher | teacher | teacher@teacher.com | universitystate |
+|  Parent | parent | parent@parent.com | universitystate |
+|  Accountant | accountant | accountant@accountant.com | universitystate |
+|  Student | laravel | studentlaravel@student.com | universitystate |
 
 ## About Laravel
 
