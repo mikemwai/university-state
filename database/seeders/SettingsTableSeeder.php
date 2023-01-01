@@ -16,11 +16,11 @@ class SettingsTableSeeder extends Seeder
         DB::table('settings')->delete();
 
         $data = [
-            ['type' => 'current_session', 'description' => '2018-2019'],
+            ['type' => 'current_session', 'description' => '2022-2023'],
             ['type' => 'system_title', 'description' => 'US'],
             ['type' => 'system_name', 'description' => 'University State'],
-            ['type' => 'term_ends', 'description' => '7/10/2018'],
-            ['type' => 'term_begins', 'description' => '7/10/2018'],
+            ['type' => 'term_ends', 'description' => '3/31/2023'],
+            ['type' => 'term_begins', 'description' => '1/1/2023'],
             ['type' => 'phone', 'description' => '0123456789'],
             ['type' => 'address', 'description' => '18B North Central Park, Behind Central Square Tourist Center'],
             ['type' => 'system_email', 'description' => 'universitystate@universitystate.com'],
