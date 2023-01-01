@@ -24,3 +24,9 @@ Route::get("view",[App\Http\Controllers\SubjectController::class,'view']);
 
 //Posts a new subject to the database
 Route::post("add",[App\Http\Controllers\SubjectController::class,'add']);
+
+//Updates subject information to the database
+Route::put("modify",[SubjectController::class,'modify']);
+
+//Deletes subject information to the database
+Route::delete("destroy",[SubjectController::class,'destroy']);
