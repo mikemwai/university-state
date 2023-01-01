@@ -29,9 +29,9 @@ class ExamSeeder extends Seeder
             ['name' => 'End of 1st Semester Exam', 'term' => '1', 'year' => '2021-2022'],
             ['name' => 'End of 2nd Semester Exam', 'term' => '2', 'year' => '2021-2022'],
             ['name' => 'End of 3rd Semester Exam', 'term' => '3', 'year' => '2021-2022'],
-            ['name' => 'End of 1st Semester Exam', 'term' => '1', 'year' => Qs::getSetting('current_session')],
-            ['name' => 'End of 2nd Semester Exam', 'term' => '2', 'year' => Qs::getSetting('current_session')],
-            ['name' => 'End of 3rd Semester Exam', 'term' => '3', 'year' => Qs::getSetting('current_session')],
+            ['name' => 'End of 1st Semester Exam', 'term' => '1', 'year' => '2022-2023'],
+            ['name' => 'End of 2nd Semester Exam', 'term' => '2', 'year' => '2022-2023'],
+            ['name' => 'End of 3rd Semester Exam', 'term' => '3', 'year' => '2022-2023'],
         ];
         DB::table('exams')->insert($data);
     }
