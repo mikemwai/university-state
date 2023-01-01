@@ -19,8 +19,8 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 //Gets data about the student
 Route::get("list",[App\Http\Controllers\StudentController::class,'list']); 
 
-//Gets data about the subject
+//Gets data about the available subjects
 Route::get("view",[App\Http\Controllers\SubjectController::class,'view']); 
 
-//Posts new subject information to the database
+//Posts a new subject to the database
 Route::post("add",[App\Http\Controllers\SubjectController::class,'add']);
