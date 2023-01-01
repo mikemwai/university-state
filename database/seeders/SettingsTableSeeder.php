@@ -22,7 +22,7 @@ class SettingsTableSeeder extends Seeder
             ['type' => 'term_ends', 'description' => '3/31/2023'],
             ['type' => 'term_begins', 'description' => '1/1/2023'],
             ['type' => 'phone', 'description' => '0123456789'],
-            ['type' => 'address', 'description' => '18B North Central Park, Behind Central Square Tourist Center'],
+            ['type' => 'address', 'description' => 'Nairobi, Kenya'],
             ['type' => 'system_email', 'description' => 'universitystate@universitystate.com'],
             ['type' => 'alt_email', 'description' => ''],
             ['type' => 'email_host', 'description' => ''],

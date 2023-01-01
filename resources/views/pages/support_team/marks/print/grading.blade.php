@@ -23,7 +23,7 @@
         <td><strong>Credits:</strong> {{ Mk::countCredits($marks) }}</td>
         <td><strong>Passes:</strong> {{ Mk::countPasses($marks) }}</td>
         <td><strong>Failures:</strong> {{ Mk::countFailures($marks) }}</td>
-        <td><strong>Subjects Offered:</strong> {{ Mk::countSubjectsOffered($marks) }}</td>
+        <td><strong>Courses Offered:</strong> {{ Mk::countSubjectsOffered($marks) }}</td>
     </tr>
 
     </tbody>

@@ -11,18 +11,18 @@
 
                 @if(Qs::userIsTeamSAT())
                     <div class="form-group row">
-                        <label class="col-lg-2 col-form-label font-weight-semibold">Teacher's Comment</label>
+                        <label class="col-lg-2 col-form-label font-weight-semibold">Lecturer's Comment</label>
                         <div class="col-lg-10">
-                            <input name="t_comment" value="{{ $exr->t_comment }}"  type="text" class="form-control" placeholder="Teacher's Comment">
+                            <input name="t_comment" value="{{ $exr->t_comment }}"  type="text" class="form-control" placeholder="Lecturer's Comment">
                         </div>
                     </div>
                 @endif
 
                 @if(Qs::userIsTeamSA())
                     <div class="form-group row">
-                        <label class="col-lg-2 col-form-label font-weight-semibold">Head Teacher's Comment</label>
+                        <label class="col-lg-2 col-form-label font-weight-semibold">Senior Lecturer's Comment</label>
                         <div class="col-lg-10">
-                            <input name="p_comment" value="{{ $exr->p_comment }}"  type="text" class="form-control" placeholder="Head Teacher's Comment">
+                            <input name="p_comment" value="{{ $exr->p_comment }}"  type="text" class="form-control" placeholder="Senior Lecturer's Comment">
                         </div>
                     </div>
                 @endif
