@@ -16,8 +16,16 @@ class SubjectController extends Controller
 
     }
 
-   function add()
+   function add(Request $req)
    {
-    return ["Result"=>"Data has been saved"];
+    $subject = New Subject();
+    $subject->name = $req ->input('name');
+    $subject->slug = $req ->input('slug');
+    $subject->my_class_id = $req ->input('my_class_id');
+    $subject->teacher_id = $req ->input('teacher_id');
+    $subject->save();
+
+    return response()->json(['success' => true], 201);
+    //return ["Result"=>"Data has been saved"];
    }
 }
