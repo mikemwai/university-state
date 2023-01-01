@@ -16,3 +16,11 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+//Gets data about the student
+Route::get("list",[StudentController::class,'list']); 
+
+//Gets data about the subject
+Route::get("view",[SubjectController::class,'view']); 
+
+//Posts new subject information to the database
+Route::post("add",[SubjectController::class,'add']);
