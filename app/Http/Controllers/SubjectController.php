@@ -24,7 +24,7 @@ class SubjectController extends Controller
     $subject->my_class_id = $req ->input('my_class_id');
     $subject->teacher_id = $req ->input('teacher_id');
     $subject->save();
-
+    return response()->json($subject);
     return response()->json(['success' => true], 201);
     //return ["Result"=>"Data has been saved"];
    }
