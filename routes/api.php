@@ -29,4 +29,4 @@ Route::post("add",[App\Http\Controllers\SubjectController::class,'add']);
 Route::put("modify",[App\Http\Controllers\SubjectController::class,'modify']);
 
 //Deletes subject information to the database
-Route::delete("destroy",[SubjectController::class,'destroy']);
+Route::delete("destroy",[App\Http\Controllers\SubjectController::class,'destroy']);
