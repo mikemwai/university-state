@@ -17,7 +17,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 //Gets data about the student
-Route::get("list",[StudentController::class,'list']); 
+Route::get("list",[App\Http\Controllers\StudentController::class,'list']); 
 
 //Gets data about the subject
 Route::get("view",[SubjectController::class,'view']); 
