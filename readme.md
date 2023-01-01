@@ -22,7 +22,7 @@ After seeding. Login details as follows:
 |  Teacher | teacher | teacher@teacher.com | universitystate |
 |  Parent | parent | parent@parent.com | universitystate |
 |  Accountant | accountant | accountant@accountant.com | universitystate |
-|  Student | laravel | studentlaravel@student.com | universitystate |
+|  Student | student | student@student.com | universitystate |
 
 ## About Laravel
 
