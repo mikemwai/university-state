@@ -23,4 +23,4 @@ Route::get("list",[App\Http\Controllers\StudentController::class,'list']);
 Route::get("view",[App\Http\Controllers\SubjectController::class,'view']); 
 
 //Posts new subject information to the database
-Route::post("add",[SubjectController::class,'add']);
+Route::post("add",[App\Http\Controllers\SubjectController::class,'add']);
