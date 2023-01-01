@@ -14,10 +14,9 @@ class ExamRecordsSeeder extends Seeder
      */
     public function run()
     {
-        /*
         $data = [
             ['name' => 'End of 1st Semester Exam', 'term' => '1', 'year' => '2018-2019'],
         ];
-        DB::table('exams')->insert($data);*/
+        DB::table('exam_records')->insert($data);
     }
 }

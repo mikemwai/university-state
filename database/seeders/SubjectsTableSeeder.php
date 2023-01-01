@@ -46,6 +46,76 @@ class SubjectsTableSeeder extends Seeder
                     'teacher_id' => $teacher_id
                 ],
 
+                [
+                    'name' => $subjects[2],
+                    'slug' => $sub_slug[2],
+                    'my_class_id' => $my_class->id,
+                    'teacher_id' => $teacher_id
+                ],
+
+                [
+                    'name' => $subjects[3],
+                    'slug' => $sub_slug[3],
+                    'my_class_id' => $my_class->id,
+                    'teacher_id' => $teacher_id
+                ],
+
+                [
+                    'name' => $subjects[4],
+                    'slug' => $sub_slug[4],
+                    'my_class_id' => $my_class->id,
+                    'teacher_id' => $teacher_id
+                ],
+
+                [
+                    'name' => $subjects[5],
+                    'slug' => $sub_slug[5],
+                    'my_class_id' => $my_class->id,
+                    'teacher_id' => $teacher_id
+                ],
+
+                [
+                    'name' => $subjects[6],
+                    'slug' => $sub_slug[6],
+                    'my_class_id' => $my_class->id,
+                    'teacher_id' => $teacher_id
+                ],
+
+                [
+                    'name' => $subjects[7],
+                    'slug' => $sub_slug[7],
+                    'my_class_id' => $my_class->id,
+                    'teacher_id' => $teacher_id
+                ],
+
+                [
+                    'name' => $subjects[8],
+                    'slug' => $sub_slug[8],
+                    'my_class_id' => $my_class->id,
+                    'teacher_id' => $teacher_id
+                ],
+
+                [
+                    'name' => $subjects[9],
+                    'slug' => $sub_slug[9],
+                    'my_class_id' => $my_class->id,
+                    'teacher_id' => $teacher_id
+                ],
+
+                [
+                    'name' => $subjects[10],
+                    'slug' => $sub_slug[10],
+                    'my_class_id' => $my_class->id,
+                    'teacher_id' => $teacher_id
+                ],
+
+                [
+                    'name' => $subjects[11],
+                    'slug' => $sub_slug[11],
+                    'my_class_id' => $my_class->id,
+                    'teacher_id' => $teacher_id
+                ],
+
             ];
 
             DB::table('subjects')->insert($data);
