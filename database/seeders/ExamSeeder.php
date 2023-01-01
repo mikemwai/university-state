@@ -17,21 +17,21 @@ class ExamSeeder extends Seeder
     {
         //
         $data = [
-            ['name' => 'End of Semester Exam', 'term' => '1', 'year' => '2018-2019'],
-            ['name' => 'End of Semester Exam', 'term' => '2', 'year' => '2018-2019'],
-            ['name' => 'End of Semester Exam', 'term' => '3', 'year' => '2018-2019'],
-            ['name' => 'End of Semester Exam', 'term' => '1', 'year' => '2019-2020'],
-            ['name' => 'End of Semester Exam', 'term' => '2', 'year' => '2019-2020'],
-            ['name' => 'End of Semester Exam', 'term' => '3', 'year' => '2019-2020'],
-            ['name' => 'End of Semester Exam', 'term' => '1', 'year' => '2020-2021'],
-            ['name' => 'End of Semester Exam', 'term' => '2', 'year' => '2020-2021'],
-            ['name' => 'End of Semester Exam', 'term' => '3', 'year' => '2020-2021'],
-            ['name' => 'End of Semester Exam', 'term' => '1', 'year' => '2021-2022'],
-            ['name' => 'End of Semester Exam', 'term' => '2', 'year' => '2021-2022'],
-            ['name' => 'End of Semester Exam', 'term' => '3', 'year' => '2021-2022'],
-            ['name' => 'End of Semester Exam', 'term' => '1', 'year' => Qs::getSetting('current_session')],
-            ['name' => 'End of Semester Exam', 'term' => '2', 'year' => Qs::getSetting('current_session')],
-            ['name' => 'End of Semester Exam', 'term' => '3', 'year' => Qs::getSetting('current_session')],
+            ['name' => 'End of 1st Semester Exam', 'term' => '1', 'year' => '2018-2019'],
+            ['name' => 'End of 2nd Semester Exam', 'term' => '2', 'year' => '2018-2019'],
+            ['name' => 'End of 3rd Semester Exam', 'term' => '3', 'year' => '2018-2019'],
+            ['name' => 'End of 1st Semester Exam', 'term' => '1', 'year' => '2019-2020'],
+            ['name' => 'End of 2nd Semester Exam', 'term' => '2', 'year' => '2019-2020'],
+            ['name' => 'End of 3rd Semester Exam', 'term' => '3', 'year' => '2019-2020'],
+            ['name' => 'End of 1st Semester Exam', 'term' => '1', 'year' => '2020-2021'],
+            ['name' => 'End of 2nd Semester Exam', 'term' => '2', 'year' => '2020-2021'],
+            ['name' => 'End of 3rd Semester Exam', 'term' => '3', 'year' => '2020-2021'],
+            ['name' => 'End of 1st Semester Exam', 'term' => '1', 'year' => '2021-2022'],
+            ['name' => 'End of 2nd Semester Exam', 'term' => '2', 'year' => '2021-2022'],
+            ['name' => 'End of 3rd Semester Exam', 'term' => '3', 'year' => '2021-2022'],
+            ['name' => 'End of 1st Semester Exam', 'term' => '1', 'year' => Qs::getSetting('current_session')],
+            ['name' => 'End of 2nd Semester Exam', 'term' => '2', 'year' => Qs::getSetting('current_session')],
+            ['name' => 'End of 3rd Semester Exam', 'term' => '3', 'year' => Qs::getSetting('current_session')],
         ];
         DB::table('exams')->insert($data);
     }
