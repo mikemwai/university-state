@@ -152,6 +152,13 @@
 
                         <div class="col-md-3">
                             <div class="form-group">
+                                <label for="course_id">Subject (Course): <span class="text-danger">*</span></label>
+                                <input type="text" name="course" placeholder="Course" class="form-control" value="">
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="form-group">
                                 <label for="my_parent_id">Parent: </label>
                                 <select data-placeholder="Choose..."  name="my_parent_id" id="my_parent_id" class="select-search form-control">
                                     <option  value=""></option>
