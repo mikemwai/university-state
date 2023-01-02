@@ -28,6 +28,7 @@ class SubjectController extends Controller
     return response()->json(['success' => true], 201);
     //return ["Result"=>"Data has been saved"];
    }
+   
     function modify(Request $req)
    {
     $subject=  Subject::find($req->id);
@@ -41,6 +42,7 @@ class SubjectController extends Controller
 
    
    }
+
    function destroy(Request $request)
     {
     $subject = Subject::findOrFail($request->id);
@@ -49,4 +51,4 @@ class SubjectController extends Controller
     return response()->json($subject::all());
     }
 }
-}
+
