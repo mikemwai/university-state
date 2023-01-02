@@ -48,6 +48,7 @@ class SubjectController extends Controller
     $subject = Subject::findOrFail($request->id);
     $subject->delete();
 
+    return response()->json(['Success, Record Deleted' => true], 200);
     return response()->json($subject::all());
     }
 }
