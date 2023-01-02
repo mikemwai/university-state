@@ -33,6 +33,7 @@ class StudentRecordsTableSeeder extends Seeder
                     'section_id' => $section->id,
                     'my_class_id' => $section->my_class_id,
                     //'adm_no' =>random_int(100000, 999999),
+                    //'adm_no' => mt_rand(100000, 99999999),
                     'user_id' => function(User $user){
                         return ['user_id' => $user->id];
                     },

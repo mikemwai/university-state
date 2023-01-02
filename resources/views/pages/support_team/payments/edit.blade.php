@@ -35,7 +35,7 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="amount" class="col-lg-3 col-form-label font-weight-semibold">Amount (<del style="text-decoration-style: double">N</del>) </label>
+                            <label for="amount" class="col-lg-3 col-form-label font-weight-semibold">Amount (Ksh) </label>
                             <div class="col-lg-9">
                                 <input disabled class="form-control" value="{{ $payment->amount }}" id="amount" type="text">
                             </div>

@@ -13,7 +13,7 @@
                 <td>
                     <strong><span
                                 style="color: #1b0c80; font-size: 25px;">{{ strtoupper(Qs::getSetting('system_name')) }}</span></strong><br/>
-                    {{-- <strong><span style="color: #1b0c80; font-size: 20px;">MINNA, NIGER STATE</span></strong><br/>--}}
+                    {{-- <strong><span style="color: #1b0c80; font-size: 20px;">NAIROBI, KENYA</span></strong><br/>--}}
                     <strong><span
                                 style="color: #000; font-size: 15px;"><i>{{ ucwords($s['address']) }}</i></span></strong>
                     <br/> <br/>
@@ -98,8 +98,8 @@
            <thead>
            <tr>
                <td class="bold">Date</td>
-               <td class="bold">Amount Paid <del style="text-decoration-style: double">N</del></td>
-               <td class="bold">Balance <del style="text-decoration-style: double">N</del></td>
+               <td class="bold">Amount Paid (Ksh)</td>
+               <td class="bold">Balance (Ksh)</td>
            </tr>
            </thead>
             <tbody>
