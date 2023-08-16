@@ -1,11 +1,6 @@
 <?xml version="1.0"?>
 <ruleset name="Custom" namespace="Nette">
-	<rule ref="$presets/php72.xml"/>
-
-	<!-- bug in SlevomatCodingStandard -->
-	<rule ref="SlevomatCodingStandard.Operators.RequireCombinedAssignmentOperator">
-		<severity>0</severity>
-	</rule>
+	<rule ref="$presets/php80.xml"/>
 
 	<!-- bug in FunctionSpacingSniff -->
 	<exclude-pattern>./tests/Utils/Reflection.getDeclaringMethod.alias.phpt</exclude-pattern>
@@ -13,6 +8,6 @@
 
 	<!-- use function in Arrays.php, Callback.php, Html.php, Strings.php -->
 	<rule ref="SlevomatCodingStandard.Namespaces.MultipleUsesPerLine.MultipleUsesPerLine">
-		<severity>0</severity>
+		<exclude-pattern>./src/*/*.php</exclude-pattern>
 	</rule>
 </ruleset>
